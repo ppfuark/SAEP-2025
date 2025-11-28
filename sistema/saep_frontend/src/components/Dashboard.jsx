@@ -65,21 +65,6 @@ function Dashboard({ onLogout, navigateTo }) {
                 </div>
               </div>
             </div>
-
-            {/* Card Relatórios */}
-            <div className="bg-white overflow-hidden shadow rounded-lg cursor-pointer transform hover:scale-105 transition duration-200">
-              <div className="p-6">
-                <div className="flex items-center">
-                  <div className="flex-shrink-0 bg-purple-500 rounded-md p-3">
-                    <span className="text-white text-2xl">📈</span>
-                  </div>
-                  <div className="ml-4">
-                    <h3 className="text-lg font-medium text-gray-900">Relatórios</h3>
-                    <p className="text-sm text-gray-500">Relatórios de movimentação</p>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </main>
